@@ -30,3 +30,23 @@
 	30%{transform: translateX(-800px) translateY(0px);}
 	100%{transform: translateX(-2500px) translateY(-700px) rotate(20deg);}
 }
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .airplane,.runway,.container,img
+  {
+  	width: 100%;
+  }
+  img{
+  	width: 50%;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .airplane,.runway,.container{
+    width: 100%;
+  }
+  img{
+  	width: 50%;
+  }
+}
